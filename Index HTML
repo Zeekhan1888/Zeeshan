@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Real Estate Co.</h1>
+        <nav>
+            <ul>
+                <li><a href="#properties">Properties</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="properties">
+        <h2>Our Properties</h2>
+        <div class="property">
+            <img src="house1.jpg" alt="House 1">
+            <h3>Beautiful Family House</h3>
+            <p>Price: $500,000</p>
+        </div>
+        <div class="property">
+            <img src="house2.jpg" alt="House 2">
+            <h3>Modern Apartment</h3>
+            <p>Price: $300,000</p>
+        </div>
+        <!-- Add more properties as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p> (&) copy; 2024 Real Estate Co.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
